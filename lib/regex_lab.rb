@@ -18,7 +18,7 @@ end
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  text.match?(/^[A-Z].*\W$/)
+  return text.match?(/^[A-Z].*\W$/)
 end
 
 def valid_phone_number?(phone)
